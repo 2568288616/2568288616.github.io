@@ -2,7 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <style>
-#banner {
+#sa {
+	float:top;
 	background:#F99;
 	width:980px;
 	height:200px;}
@@ -24,45 +25,55 @@
 .riqi{
 	background: #00F;
 	position: absolute;
-	left: 349px;
-	top: 225px;
-	width: 305px;
-	height: 140px;
+	left: 475px;
+	top: 230px;
+	width: 304px;
+	height: 138px;
 }
 .boketuijian {
 	background: #FC0;
 	position: absolute;
-	left: 660px;
-	top: 224px;
+	left: 785px;
+	top: 231px;
 	width: 354px;
-	height: 140px;
+	height: 135px;
 }
 .bokesousuo {
 	background: #F00;
 	position: absolute;
-	left: 347px;
-	top: 372px;
+	left: 476px;
+	top: 377px;
 	width: 665px;
 	height: 43px;
 }
 .biaodan {
 	background: ##966;
 	position: absolute;
-	left: 348px;
-	top: 429px;
+	left: 475px;
+	top: 428px;
 	width: 665px;
 	height: 34px;
 }
 .yangshituijian {
 	background: #606;
 	position: absolute;
-	left: 349px;
-	top: 477px;
+	left: 475px;
+	top: 471px;
 	width: 664px;
 	height: 180px;
-}
-#kongbai{
-	height:15px;}
+.aa{
+	float:right;
+	background: #808;
+	position: absolute;
+	left: 345px;
+	top: 511px;
+	width: 664px;
+	height: 180px;
+	}
+#sm{
+	float:bottom;
+	height:15px;
+	}
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
@@ -71,11 +82,12 @@
 <body>
 <div id="zhengti">
    <div id="banner">
+   	<div id="sa"></div>
+    <div id="sm"></div>
    </div>
   <div id="kongbai"></div>
-  <div id="right">
+  <div class="aa" id="right">
    </div>
-  S
   <div id="left">
     <div class="riqi">日期</div>
     <div class="boketuijian">博客推荐</div>
@@ -84,7 +96,7 @@
     <div class="yangshituijian">样式推荐</div>   
   </div>
   <div id="footer">
-   </div>
+  </div>
 </div>
    
 </body>
